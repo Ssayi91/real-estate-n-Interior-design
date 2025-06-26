@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affordable Housing | Kenya Design & Estates</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estate.css">
+</head>
+<body>
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/254700000000" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="navbar">
+            <a href="#" class="logo">
+           <span> Property & Design</span>
+            </a>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="interior.html">Interior Design</a></li>
+                <li><a href="estate.html" class="active">Real Estate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Affordable Housing <span>Solutions for Kenya</span></h1>
+            <p>Quality, accessible homes for Kenyan families - starting with modern 2-bedroom units</p>
+            <a href="#affordable-housing" class="cta-button">Explore Affordable Homes </a>
+        </div>
+    </section>
+
+    <!-- Property Search Section -->
+    <section class="property-search">
+        <div class="search-container glass-card">
+            <h3>Find Your Perfect Property</h3>
+            <div class="search-filters">
+                <div class="filter-group">
+                    <label for="property-type">Property Type</label>
+                    <select id="property-type">
+                        <option value="">Any Type</option>
+                        <option value="house">House</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="villa">Villa</option>
+                        <option value="affordable">Affordable Housing</option>
+                        <option value="land">Land</option>
+                        <option value="commercial">Commercial</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="location">Location</label>
+                    <select id="location">
+                        <option value="">Any Location</option>
+                        <option value="nairobi">Nairobi</option>
+                        <option value="mombasa">Mombasa</option>
+                        <option value="kisumu">Kisumu</option>
+                        <option value="nakuru">Nakuru</option>
+                        <option value="naivasha">Naivasha</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="price-range">Price Range (KSh)</label>
+                    <select id="price-range">
+                        <option value="">Any Price</option>
+                        <option value="0-5000000">Under 5M</option>
+                        <option value="5000000-10000000">5M - 10M</option>
+                        <option value="10000000-30000000">10M - 30M</option>
+                        <option value="30000000+">30M+</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="bedrooms">Bedrooms</label>
+                    <select id="bedrooms">
+                        <option value="">Any</option>
+                        <option value="1">1+</option>
+                        <option value="2">2+</option>
+                        <option value="3">3+</option>
+                        <option value="4">4+</option>
+                        <option value="5">5+</option>
+                    </select>
+                </div>
+            </div>
+            <button class="search-button">Search Properties</button>
+        </div>
+    </section>
+
+    <!-- Featured Properties -->
+    <section id="featured-properties" class="featured-properties">
+        <div class="section-title">
+            <h2>Featured Properties</h2>
+            <p>Premium real estate listings in Kenya's most desirable locations</p>
+        </div>
+        
+        <div class="properties-grid">
+            <div class="property-card glass-card">
+                <div class="property-img">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1750&q=80" alt="Suburban Home">
+                    <div class="property-badge">For Sale</div>
+                </div>
+                <div class="property-content">
+                    <div class="property-price">42,500,000</div>
+                    <h3 class="property-title">Karen Family Home</h3>
+                    <div class="property-address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Karen, Nairobi, Kenya
+                    </div>
+                    <div class="property-features">
+                        <div class="feature">
+                            <i class="fas fa-bed"></i> 5 Beds
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-bath"></i> 4 Baths
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-ruler-combined"></i> 4500 sq.ft.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="property-card glass-card">
+                <div class="property-img">
+                    <img src="https://images.unsplash.com/photo-1600585152915-d208bec867a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1752&q=80" alt="Urban Loft">
+                    <div class="property-badge">For Rent</div>
+                </div>
+                <div class="property-content">
+                    <div class="property-price">250,000</div>
+                    <h3 class="property-title">Westlands Luxury Apartment</h3>
+                    <div class="property-address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Westlands, Nairobi, Kenya
+                    </div>
+                    <div class="property-features">
+                        <div class="feature">
+                            <i class="fas fa-bed"></i> 3 Beds
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-bath"></i> 3 Baths
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-ruler-combined"></i> 2200 sq.ft.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="property-card glass-card">
+                <div class="property-img">
+                    <img src="https://images.unsplash.com/photo-1575517111839-3a3843ee7f5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1770&q=80" alt="Modern Villa">
+                    <div class="property-badge">For Sale</div>
+                </div>
+                <div class="property-content">
+                    <div class="property-price">68,000,000</div>
+                    <h3 class="property-title">Nyali Beachfront Villa</h3>
+                    <div class="property-address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Nyali, Mombasa, Kenya
+                    </div>
+                    <div class="property-features">
+                        <div class="feature">
+                            <i class="fas fa-bed"></i> 6 Beds
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-bath"></i> 5 Baths
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-ruler-combined"></i> 5800 sq.ft.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Property Services -->
+    <section class="property-services">
+        <div class="section-title">
+            <h2>Our Real Estate Services</h2>
+            <p>Comprehensive solutions for all your property needs</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="glass-card service-card">
+                <div class="service-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Property Sales</h3>
+                    <p>Find your dream home or investment property with our curated selection of premium listings across Kenya.</p>
+                    <a href="#featured-properties" class="cta-button" style="padding: 0.8rem 2rem; display: inline-block;">View Properties</a>
+                </div>
+            </div>
+            
+            <div class="glass-card service-card">
+                <div class="service-icon">
+                    <i class="fas fa-key"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Affordable Housing</h3>
+                    <p>Modern, accessible 2-bedroom units designed for Kenyan families at competitive prices.</p>
+                    <a href="#affordable-housing" class="cta-button" style="padding: 0.8rem 2rem; display: inline-block;">Explore Options</a>
+                </div>
+            </div>
+            
+            <div class="glass-card service-card">
+                <div class="service-icon">
+                    <i class="fas fa-search-dollar"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Property Valuation</h3>
+                    <p>Accurate property valuations for sales, purchases, financing, and insurance purposes.</p>
+                    <a href="#contact" class="cta-button" style="padding: 0.8rem 2rem; display: inline-block;">Request Valuation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Affordable Housing Initiative -->
+    <section id="affordable-housing" class="affordable-housing">
+        <div class="affordable-intro">
+            <h2>Affordable Housing Initiative</h2>
+            <p>At Kenya Design & Estates, we're addressing Kenya's housing deficit with quality, affordable solutions. Our core focus is developing modern two-bedroom bungalows and townhouses that combine functionality, style, and affordability.</p>
+            <p>Inspired by Kenya's commitment to housing for all, we're creating communities where families can thrive without compromising on quality or design.</p>
+        </div>
+        
+        <div class="housing-grid">
+            <div class="glass-card housing-card">
+                <div class="housing-img">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1653&q=80" alt="Modern Bungalow">
+                </div>
+                <div class="housing-content">
+                    <h3>2-Bedroom Modern Bungalows</h3>
+                    <p>Spacious single-story homes designed for comfort and efficiency:</p>
+                    <ul class="housing-features">
+                        <li><i class="fas fa-check-circle"></i> 800-1000 sq.ft. living space</li>
+                        <li><i class="fas fa-check-circle"></i> Modern open-plan kitchen</li>
+                        <li><i class="fas fa-check-circle"></i> Energy-efficient design</li>
+                        <li><i class="fas fa-check-circle"></i> Private garden space</li>
+                        <li><i class="fas fa-check-circle"></i> Secure compound with amenities</li>
+                    </ul>
+                    <div class="housing-price">4,500,000</div>
+                    <a href="#contact" class="cta-button" style="width: 100%; text-align: center;">Register Interest</a>
+                </div>
+            </div>
+            
+            <div class="glass-card housing-card">
+                <div class="housing-img">
+                    <img src="https://images.unsplash.com/photo-1560448204-603b3fc33ddc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1650&q=80" alt="Townhouse Development">
+                </div>
+                <div class="housing-content">
+                    <h3>Modern Townhouse Developments</h3>
+                    <p>Contemporary connected homes offering community living with privacy:</p>
+                    <ul class="housing-features">
+                        <li><i class="fas fa-check-circle"></i> 900-1100 sq.ft. living space</li>
+                        <li><i class="fas fa-check-circle"></i> Private entrance and balcony</li>
+                        <li><i class="fas fa-check-circle"></i> Modern finishes throughout</li>
+                        <li><i class="fas fa-check-circle"></i> Shared community spaces</li>
+                        <li><i class="fas fa-check-circle"></i> 24/7 security and maintenance</li>
+                    </ul>
+                    <div class="housing-price">5,200,000</div>
+                    <a href="#contact" class="cta-button" style="width: 100%; text-align: center;">Register Interest</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section class="locations-section">
+        <div class="section-title">
+            <h2>Affordable Housing Locations</h2>
+            <p>Our current and upcoming affordable housing projects</p>
+        </div>
+        
+        <div class="locations-grid">
+            <div class="glass-card location-card">
+                <div class="location-icon">
+                    <i class="fas fa-building"></i>
+                </div>
+                <h3>Nairobi Metro</h3>
+                <p>Ongoing projects in Athi River, Ruiru, and Ngong</p>
+            </div>
+            
+            <div class="glass-card location-card">
+                <div class="location-icon">
+                    <i class="fas fa-umbrella-beach"></i>
+                </div>
+                <h3>Mombasa County</h3>
+                <p>Upcoming coastal developments in Mtwapa and Likoni</p>
+            </div>
+            
+            <div class="glass-card location-card">
+                <div class="location-icon">
+                    <i class="fas fa-lake"></i>
+                </div>
+                <h3>Kisumu City</h3>
+                <p>Lakeside communities near the CBD</p>
+            </div>
+            
+            <div class="glass-card location-card">
+                <div class="location-icon">
+                    <i class="fas fa-mountain"></i>
+                </div>
+                <h3>Nakuru County</h3>
+                <p>Affordable units near the Menengai Crater</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="section-title">
+            <h2>Client Testimonials</h2>
+            <p>What our clients say about their real estate experience</p>
+        </div>
+        
+        <div class="testimonials-grid">
+            <div class="glass-card testimonial-card">
+                <div class="quote-icon">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+                <div class="testimonial-content">
+                    "As a first-time homeowner, Kenya Design & Estates made my dream possible. Their affordable bungalow gave my family the perfect starter home without compromising on quality."
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Grace Mwangi">
+                    </div>
+                    <div class="author-info">
+                        <h4>Grace Mwangi</h4>
+                        <p>Homeowner, Athi River</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="glass-card testimonial-card">
+                <div class="quote-icon">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+                <div class="testimonial-content">
+                    "The modern townhouse development exceeded our expectations. The thoughtful design and community amenities make it feel like a premium development at an affordable price."
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <img src="https://randomuser.me/api/portraits/men/42.jpg" alt="James Otieno">
+                    </div>
+                    <div class="author-info">
+                        <h4>James Otieno</h4>
+                        <p>Property Investor, Ruiru</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="glass-card testimonial-card">
+                <div class="quote-icon">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+                <div class="testimonial-content">
+                    "Working with Kenya Design & Estates on their affordable housing project has been rewarding. They're setting new standards for quality in this segment of the market."
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah Kariuki">
+                    </div>
+                    <div class="author-info">
+                        <h4>Sarah Kariuki</h4>
+                        <p>Architecture Partner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Kenya Design & Estates</h3>
+                <p>Creating beautiful spaces and finding perfect places across Kenya since 2010.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="interior.html">Interior Design</a></li>
+                    <li><a href="#" class="active">Real Estate</a></li>
+                    <li><a href="#affordable-housing">Affordable Housing</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Real Estate Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#featured-properties">Property Sales</a></li>
+                    <li><a href="#affordable-housing">Affordable Housing</a></li>
+                    <li><a href="#">Property Management</a></li>
+                    <li><a href="#">Property Valuation</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <div class="footer-contact">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>ABC Towers, 5th Floor, Nairobi, Kenya</div>
+                </div>
+                <div class="footer-contact">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>+254 700 000 000</div>
+                </div>
+                <div class="footer-contact">
+                    <i class="fas fa-envelope"></i>
+                    <div>affordable@kenyadesign.co.ke</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 Kenya Design & Estates. All rights reserved. | Proudly Kenyan</p>
+        </div>
+    </footer>
+
+<script src="estate.js"></script> 
+</body>
+</html>
