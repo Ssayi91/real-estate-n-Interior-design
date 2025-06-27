@@ -477,7 +477,7 @@
         }
         
         .reel-placeholder {
-            height: 250px;
+            height: 200px;
             background: #f0f4f8;
             display: flex;
             align-items: center;
@@ -485,6 +485,14 @@
             color: var(--secondary);
             font-weight: 500;
         }
+        .reel-placeholder iframe {
+            width: 120%;
+            height: 100%;
+            border: none;
+            object-fit: fill;
+            display: block;
+        }
+
         
         .reel-content {
             padding: 1.8rem;
